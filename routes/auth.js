@@ -48,9 +48,10 @@ router.post(
         return res.status(400).json({ msg: "Invalid credentials" });
       }
 
-      // User exists but wrong password
+      // Compare registered password to login password
       const isMatch = await bcrypt.compare(password, user.password);
 
+      // User exists but wrong password
       if (!isMatch) {
         return res.status(400).json({ msg: "Invalid Credentials" });
       }
@@ -58,7 +59,7 @@ router.post(
       // Send token if available
       const payload = {
         user: {
-          id: user.id,
+          id: user.id
         },
       };
 

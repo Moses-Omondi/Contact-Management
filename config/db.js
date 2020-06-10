@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 const config = require("config");
-mongoose.set('useCreateIndex', true);
-
 const db = config.get("mongoURI");
+
+mongoose.set('useCreateIndex', true);
 
 const connectDB = async () => {
   try {
