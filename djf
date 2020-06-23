@@ -1,0 +1,29 @@
+[33mcommit ea2c2e043f06d5c7de336c42bbbc169c2092c74c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Moses-Omondi <mose.omondi@gmail.com>
+Date:   Wed Jun 10 14:13:29 2020 +0530
+
+    view updated
+
+[33mcommit 0157fb34003a60bb630cea9fcdc5da57d461ecb5[m
+Author: Moses-Omondi <mose.omondi@gmail.com>
+Date:   Wed Jun 10 13:28:37 2020 +0530
+
+    view created
+
+[33mcommit 61da405836d2d165e8b8875ba79048fd014dae83[m
+Author: Moses-Omondi <mose.omondi@gmail.com>
+Date:   Mon Jun 8 11:02:59 2020 +0530
+
+    view initiated
+
+[33mcommit 8f588ea789a21f34340da139443578e3ff7cd52c[m
+Author: Moses-Omondi <mose.omondi@gmail.com>
+Date:   Mon Jun 1 08:28:59 2020 +0530
+
+    building frontend
+
+[33mcommit ab40c5988aa1fa6956b101f80c0d18cf0187cebf[m
+Author: Moses-Omondi <mose.omondi@gmail.com>
+Date:   Mon Jun 1 02:55:46 2020 +0530
+
+    Express server setup with initial routes
