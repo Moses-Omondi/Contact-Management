@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A contact management application/system",
   "main": "server.js",
+  "engines": {
+    "node": "14.5.0"
+  },
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
@@ -23,10 +26,6 @@
     "npm-install-missing": "^0.1.4"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
-  },
-  "engines": {
-    "node": "14.5.0"
   }
 }
